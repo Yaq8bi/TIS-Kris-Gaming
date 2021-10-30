@@ -1,24 +1,7 @@
-.gold-text{
-    font-family: 'bebas neue',Arial, Helvetica, sans-serif;
-    color: goldenrod;
-    text-shadow: .05em .05em rgba(255, 0, 0, 0.904);
-    font-size: large;
-    margin-top: 2rem;
-}
 
-.brown-text{
-    font-family: 'bebas neue',Arial, Helvetica, sans-serif;
-    color: gold;
-    text-shadow: .05em .05em rgba(255, 0, 0, 0.904);
-    font-size: medium;
-    margin-top: 2rem;
-}
 
-h1{
-    color: yellow;
-    text-shadow: .15em .15em brown;
-    font-family: yellowtail,Arial, Helvetica, sans-serif;
-    margin-top: 2rem;
+main{
+    margin-top: 90px;
 }
 
 section{
@@ -27,14 +10,55 @@ section{
     margin-bottom: 4rem;
 }
 
+.news{
+    width: 375px;
+    background-color: rgba(219, 140, 21, 0.377);
+    height: 35px;
+    border-bottom: .3em solid goldenrod;
+}
+
 .section-1{
     margin-left: .5em;
-    margin-top: 4rem;
+    margin-top: 3rem;
     background-color: rgb(77, 11, 11);
     padding: 0 20px;
     box-shadow: 0.05em 0.05em goldenrod,
     0.10em 0.10em red;
     padding:10px;
+}
+
+.theRock {
+    margin-top: 5vh;
+    max-width: 300px;
+    border: 2vw solid rgba(255, 217, 0, 0.904);
+    border-radius: 0 3rem 2rem;
+    filter: brightness(70%);
+    filter: contrast(120%);
+    box-shadow:  0 20px rgba(255, 20, 0, 0.504), 60px 40px rgb(163, 23, 63, 0.5);
+}
+
+.btns{
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 1vh solid goldenrod;
+    border-bottom: 1vh solid gold;
+    background-color: rgba(143, 117, 31, 0.527)
+}
+
+.btns button{
+    display: flex;
+    color: white;
+    width: 20vw;
+    background-color: brown;
+    margin: 10vw;
+    border-right: 5px solid yellow;
+}
+
+.phonelogos{
+    max-width: 50px;
 }
 
 .section-1 img{
@@ -63,10 +87,6 @@ section{
     margin-top: 4rem;
 }
 
-.blck-img{
-    filter: invert(100%);
-    margin-bottom: 2rem;
-}
 
 .section-2 div{
     display: flex;
