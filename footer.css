@@ -1,0 +1,31 @@
+footer{
+    background-color: rgb(58, 4, 4);
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1{
+    margin-left: 1rem;
+}
+
+footer img{
+    width: 7em;
+    transform: rotate(-30deg);
+    position: absolute;
+    left: 250px;
+}
+
+.btm-rights{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'bebas neue',Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    text-shadow: .05em .05em rgba(255, 0, 0, 0.904);
+    box-shadow: 0 -.25em red, 0 .25em brown;
+    width: 375px;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
