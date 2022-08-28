@@ -1,30 +1,45 @@
 
 
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 main{
     margin-top: 90px;
 }
 
+.index2_main {
+    margin: auto;
+    max-width: max-content;
+}
+
 section{
-    width: 275px;
+    max-width: max-content;
     height: auto;
     margin-bottom: 4rem;
 }
 
 .news{
-    width: 375px;
+    width: 100%;
     background-color: rgba(219, 140, 21, 0.377);
     height: 35px;
     border-bottom: .3em solid goldenrod;
 }
 
+@media only screen and (min-width: 500px) {
+    .news {
+        transform: translateY(-90px);
+    }
+}
+
 .section-1{
-    margin-left: .5em;
     margin-top: 3rem;
     background-color: rgb(77, 11, 11);
     padding: 0 20px;
     box-shadow: 0.05em 0.05em goldenrod,
     0.10em 0.10em red;
-    padding:10px;
+    padding: 10px 10px 10px 10%;
 }
 
 .theRock {
@@ -51,9 +66,9 @@ section{
 .btns button{
     display: flex;
     color: white;
-    width: 20vw;
     background-color: brown;
-    margin: 10vw;
+    margin: 0 0 2rem 0;
+    padding: 0.5em 1em;
     border-right: 5px solid yellow;
 }
 
@@ -73,13 +88,16 @@ section{
 
 .section-2 {
     background-color: rgb(77, 11, 11);
-        margin-left: 3em;
+        margin-left: auto;
         margin-top: 2rem;
-        box-shadow: 0.05em 0.05em brown,
-        0.50em 0.10em goldenrod;
+        border-right: 0.05em solid brown;
+        border-bottom: solid 0.10em goldenrod;
         padding:10px;
+        padding-right: 6%;
         display: flex;
-        flex-direction: column;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
 }
 
 .section-2 div img{
@@ -94,4 +112,5 @@ section{
     justify-content: center;
     align-items: center;
     border-bottom: 2px dashed #000;
+    max-width: 500px;
 }
