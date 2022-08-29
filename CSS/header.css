@@ -1,11 +1,15 @@
 header {
     height: 90px;
-    width: 375px;
+    width: min-content;
     background: url(https://i.pinimg.com/originals/bc/b9/f4/bcb9f4e0f0a2a50d640b62c8c7b12388.jpg);
     display:flex;
+    position: fixed;
+    z-index: 10;
+    top: 0;
     overflow-x: hidden;
     border-radius: 0 0 4em 1em;
     overflow-y: hidden;
+    border-right: 7px solid brown;
 }
 
 ul{
@@ -15,10 +19,11 @@ ul{
     font-size: 23px;
     background-color: rgba(70, 64, 12, 0.719);
     height: 90px;
-    width: 375px;
     border-radius: 0 0 2em 0 ;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid goldenrod;
     border-top: 5px solid brown;
+    padding-right: 10px;
+    padding-left: 20px;
 }
 
 li{
@@ -30,12 +35,12 @@ li{
     margin-top:12px;
     padding-top:10px;
     list-style-type: none;
-    margin-right:1em;
+    margin-right:.9em;
     font-weight: 700;
 }
 
 li:hover{
-    color: goldenrod;
+    color: orange;
 }
 
 li:last-child{
@@ -47,7 +52,7 @@ li:last-child{
 }
 
 li:last-child:hover{
-    color: goldenrod;
+    color: brown;
 }
 
 header img{
@@ -59,3 +64,4 @@ header img{
 a{
     text-decoration:none ;
 }
+
